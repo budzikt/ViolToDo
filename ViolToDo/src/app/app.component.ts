@@ -8,5 +8,5 @@ import {notesdb} from './Notes'
 })
 export class AppComponent {
   titleble = 'ViolToDo';
-  Notescopy= notesdb.splice(0);
+  notes= notesdb;
 }
